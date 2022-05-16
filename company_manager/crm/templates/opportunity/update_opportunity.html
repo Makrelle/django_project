@@ -1,0 +1,6 @@
+<h3>update opportunity</h3>
+<form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Ulozit</button>
+</form>
